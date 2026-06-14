@@ -1,0 +1,131 @@
+
+
+
+body{
+    background:#bcd4ea;
+    font-family:Georgia, serif;
+}
+
+
+
+.centering{
+    width:80%;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+}
+
+
+
+
+header{
+    width:80%;
+    margin:auto;
+    background:#2f5f91;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    color:white;
+    font-size:55px;
+    text-shadow:3px 3px 5px black;
+}
+
+
+
+nav{
+    width:20%;
+    background:#ececec;
+    padding-top:70px;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav li{
+    margin:10px 0;
+    padding-left:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#2d2d9b;
+    font-size:20px;
+    font-weight:bold;
+    margin: 10px;
+}
+
+main{
+    width:80%;
+    background:#dbeaf7;
+    padding:15px;
+}
+
+.banner{
+    height:120px;
+    background-image:url("WhatsApp\ Image\ 2026-06-14\ at\ 07.27.351111.jpeg") ;
+    background-size:cover;
+    background-position:center;
+    border:7px dashed #efe48a;
+    text-align: center;
+}
+
+.banner h2{
+    color:white;
+    font-size:40px;
+    text-shadow:2px 2px 4px black;
+}
+
+article{
+    margin-top:25px;
+    color:#44224d;
+    font-size:18px;
+   
+    clear: both;
+}
+
+article img{
+    width:160px;
+    float:left;
+    margin-right:15px;
+    margin-bottom:10px;
+}
+
+article p{
+    margin-bottom:10px;
+}
+
+h3{
+    clear:both;
+    margin-top:20px;
+    margin-bottom:15px;
+    
+    color:black;
+    padding:8px;
+    box-shadow:10px 10px 15px black;
+    font-size:22px;
+    border-bottom: 1px solid black;
+
+}
+
+.countries{
+    margin-left:35px;
+    color:#4b1f4a;
+    font-size:18px;
+}
+
+.countries li{
+    margin:8px 0;
+}
+
+footer{
+    width:80%;
+    margin:auto;
+    background:#1f4671;
+    color:white;
+    text-align:center;
+    padding:8px;
+    font-size:24px;
+}
